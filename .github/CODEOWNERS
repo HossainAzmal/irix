@@ -1,17 +1,17 @@
 # This file defines the code owners for the IRIS repository.
 # Code owners will be automatically requested for review when a PR touches their code.
 
-*       @201Harsh
+*       @appwebdeveloper63-tech
 
-/docs/                      @201Harsh
-README.md                   @201Harsh
-CONTRIBUTING.md             @201Harsh
-SUPPORT.md                  @201Harsh
+/docs/                      @appwebdeveloper63-tech
+README.md                   @appwebdeveloper63-tech
+CONTRIBUTING.md             @appwebdeveloper63-tech
+SUPPORT.md                  @appwebdeveloper63-tech
 
-SECURITY.md                 @201Harsh
-electron-builder.yml        @201Harsh
+SECURITY.md                 @appwebdeveloper63-tech
+electron-builder.yml        @appwebdeveloper63-tech
 
-/src/main/                  @201Harsh
-/src/preload/               @201Harsh
+/src/main/                  @appwebdeveloper63-tech
+/src/preload/               @appwebdeveloper63-tech
 
-/src/renderer/              @201Harsh
+/src/renderer/              @appwebdeveloper63-tech

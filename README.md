@@ -22,7 +22,7 @@
     <img src="https://badgen.net/github/contributors/IRISX-AI/IRIS-AI?color=10b981&icon=github" alt="Contributors">
   </a>
 
-  <a href="https://github.com/sponsors/201Harsh">
+  <a href="https://github.com/sponsors/appwebdeveloper63-tech">
     <img src="https://badgen.net/badge/Sponsor/Support%20IRIS/ff69b4?icon=github" alt="GitHub Sponsors">
   </a>
 
@@ -539,7 +539,7 @@ npm run build:linux  # Linux
 
 **How to Access:**
 
-1. Become a sponsor: [GitHub Sponsors](https://github.com/sponsors/201Harsh)
+1. Become a sponsor: [GitHub Sponsors](https://github.com/sponsors/appwebdeveloper63-tech)
 2. Get private repo access via GitHub
 3. Clone private repository with examples
 4. Follow sponsor-only documentation
