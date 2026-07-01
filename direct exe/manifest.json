@@ -1,0 +1,68 @@
+{
+  "$schema": "./manifest.schema.json",
+  "version": "1.0.0",
+  "description": "Downloadable native executables and model files that IRIS depends on at runtime. Binaries are NOT committed to git; run the downloader to fetch them locally into ./bin.",
+  "installDir": "bin",
+  "dependencies": [
+    {
+      "id": "android-platform-tools",
+      "name": "Android Platform Tools (adb)",
+      "reason": "Wireless/USB phone connection, mirroring, telemetry and remote input in the Mobile tab.",
+      "extract": true,
+      "targets": {
+        "win32": {
+          "url": "https://dl.google.com/android/repository/platform-tools-latest-windows.zip",
+          "check": "platform-tools/adb.exe"
+        },
+        "darwin": {
+          "url": "https://dl.google.com/android/repository/platform-tools-latest-darwin.zip",
+          "check": "platform-tools/adb"
+        },
+        "linux": {
+          "url": "https://dl.google.com/android/repository/platform-tools-latest-linux.zip",
+          "check": "platform-tools/adb"
+        }
+      }
+    },
+    {
+      "id": "scrcpy",
+      "name": "scrcpy (screen mirroring)",
+      "reason": "Low-latency phone screen streaming and control shown in the Mobile tab.",
+      "extract": true,
+      "targets": {
+        "win32": {
+          "url": "https://github.com/Genymobile/scrcpy/releases/download/v3.1/scrcpy-win64-v3.1.zip",
+          "check": "scrcpy.exe"
+        }
+      }
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "reason": "Audio capture/transcoding for the WebRTC voice pipeline and screen/gallery processing.",
+      "extract": true,
+      "targets": {
+        "win32": {
+          "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+          "check": "bin/ffmpeg.exe"
+        },
+        "linux": {
+          "url": "https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz",
+          "check": "ffmpeg"
+        }
+      }
+    },
+    {
+      "id": "vosk-model-small-en",
+      "name": "Vosk Small English Model",
+      "reason": "Offline wake-word (\"Hey, IRIS\") and local speech recognition via vosk-koffi.",
+      "extract": true,
+      "targets": {
+        "all": {
+          "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+          "check": "vosk-model-small-en-us-0.15/README"
+        }
+      }
+    }
+  ]
+}

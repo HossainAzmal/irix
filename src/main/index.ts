@@ -2,6 +2,7 @@ import { app, shell, BrowserWindow, ipcMain, desktopCapturer, session } from 'el
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
+import registerSmartHomeHandlers from './lib/smart-home/manager'
 
 function createWindow(): void {
   const mainWindow = new BrowserWindow({
@@ -60,6 +61,8 @@ app.whenReady().then(() => {
         callback()
       })
   })
+
+  registerSmartHomeHandlers(ipcMain)
 
   createWindow()
 

@@ -1,0 +1,7 @@
+# Downloaded native binaries and models are fetched locally, never committed.
+bin/
+*.zip
+*.tar.xz
+*.tar.gz
+*.tgz
+*.exe

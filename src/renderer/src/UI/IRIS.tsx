@@ -4,7 +4,8 @@ import {
   RiFolderOpenLine,
   RiPhoneLine,
   RiSettings4Line,
-  RiImageLine
+  RiImageLine,
+  RiHome5Line
 } from 'react-icons/ri'
 
 import DashboardView from '../views/Dashboard'
@@ -13,6 +14,7 @@ import SettingsView from '@renderer/views/Settings'
 
 const NotesView = lazy(() => import('../views/Notes'))
 const GalleryView = lazy(() => import('../views/Gallery'))
+const SmartHomeView = lazy(() => import('../views/SmartHome'))
 
 interface IrisProps {
   isConnected: boolean
@@ -30,7 +32,7 @@ const IRIS = ({
   isSpeaking,
   isMuted,
   handleMicToggle
-}: IrisProps) => {
+}: IrisProps): JSX.Element => {
   const [activeTab, setActiveTab] = useState('DASHBOARD')
 
   const tabs = [
@@ -38,6 +40,7 @@ const IRIS = ({
     { id: 'NOTES', label: 'Notes', icon: <RiFolderOpenLine size={16} /> },
     { id: 'GALLERY', label: 'Gallery', icon: <RiImageLine size={16} /> },
     { id: 'PHONE', label: 'Mobile', icon: <RiPhoneLine size={16} /> },
+    { id: 'SMARTHOME', label: 'Home', icon: <RiHome5Line size={16} /> },
     { id: 'SETTINGS', label: 'Settings', icon: <RiSettings4Line size={16} /> }
   ]
 
@@ -120,6 +123,7 @@ const IRIS = ({
           >
             {activeTab === 'NOTES' && <NotesView glassPanel={glassPanel} />}
             {activeTab === 'GALLERY' && <GalleryView />}
+            {activeTab === 'SMARTHOME' && <SmartHomeView />}
             {activeTab === 'SETTINGS' && <SettingsView isSystemActive={isConnected} />}
           </Suspense>
         </div>
