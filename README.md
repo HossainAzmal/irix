@@ -1032,14 +1032,13 @@ Use responsibly. The maintainers are not liable for misuse, data loss, or uninte
 
 # 👨‍💻 Architect
 
-**Harsh Pandey**  
+**Hossain Azmal**  
 AI Systems Engineer & Creator
 
 **Connect:**
 
-- 🎬 Instagram: [@201Harshs](https://www.instagram.com/201harshs/)
-- 💻 GitHub: [@201Harsh](https://github.com/201Harsh)
-- 🤝 Sponsor: [GitHub Sponsors](https://github.com/sponsors/201Harsh)
+- 🎬 Instagram: [@appwebdeveloper63](https://www.instagram.com/appwebdeveloper63/)
+- 💻 GitHub: [@appwebdeveloper63-tech](https://github.com/appwebdeveloper63-tech), [@appbuilder2903](https://github.com/appbuilder2903), [@HossainAzmal](https://github.com/HossainAzmal)
 
 ---
 
@@ -1110,6 +1109,6 @@ If you find IRIS valuable, consider:
 
 ---
 
-Made with ❤️ by [Hossain Azmal](https://instagram.com/201Harshs)
+Made with ❤️ by [Hossain Azmal](https://instagram.com/appwebdeveloper63)
 
 **System Online.**
