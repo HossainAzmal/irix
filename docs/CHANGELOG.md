@@ -272,6 +272,6 @@ Format: `[version] — [codename] — [date]`
 
 ---
 
-> Made with ❤️ by [Harsh Pandey](https://github.com/201Harsh)
+> Made with ❤️ by [Hossain Azmal](https://github.com/appwebdeveloper63-tech)
 >
 > **System Online. Neural Core active.**

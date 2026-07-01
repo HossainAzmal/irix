@@ -12,15 +12,15 @@ Please read this guide to ensure your Pull Requests (PRs) merge smoothly and kee
 
 ## 🔗 Quick Links
 
-- **Sponsor & Unlock Access:** [GitHub Sponsors - @201Harsh](https://github.com/sponsors/201Harsh)
+- **Sponsor & Unlock Access:** [GitHub Sponsors - @appwebdeveloper63-tech](https://github.com/sponsors/appwebdeveloper63-tech)
 - **GitHub:** [IRIS-AI Public Repo](https://github.com/IRISX-AI/IRIS-AI)
 - **Instagram:** [@irisx.ai](https://www.instagram.com/irisx.ai/)
 
 ## 👑 Maintainers
 
 - **Hossain Azmal** - Creator & Lead Architect
-  - GitHub: [201Harsh](https://github.com/201Harsh)
-  - Instagram: [201harshs](https://www.instagram.com/201harshs/)
+  - GitHub: [appwebdeveloper63-tech](https://github.com/appwebdeveloper63-tech)
+  - Instagram: [appwebdeveloper63](https://www.instagram.com/appwebdeveloper63/)
 
 ---
 

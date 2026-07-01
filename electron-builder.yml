@@ -55,7 +55,7 @@ linux:
     - AppImage
     - snap
     - deb
-  maintainer: Harsh Pandey
+  maintainer: Hossain Azmal
   category: Utility
 
 appImage:
