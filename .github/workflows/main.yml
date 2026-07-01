@@ -1,0 +1,37 @@
+name: Build and Release EXE
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers the build whenever you push a version tag like v1.6.0
+  workflow_dispatch: # Allows you to manually trigger the build from the Actions tab
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Electron App
+        run: npm run build
+        # Note: Ensure your package.json has a build script that calls electron-builder
+        # e.g., "build": "electron-builder --win"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: IRIS-Windows-EXE
+          path: dist/*.exe # Adjust 'dist' if electron-builder outputs to a different folder
